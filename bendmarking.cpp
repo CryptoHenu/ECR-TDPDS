@@ -74,7 +74,7 @@ int bendmarking()
     element_t a1, b1, c1;
     double relative_time;
 
-    FILE *fp = fopen("param/d201.param", "r");
+    FILE *fp = fopen("../param/d201.param", "r");
     if (!fp)
     {
         printf("[Fail] Param file open fail.\n");
